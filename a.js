@@ -2598,7 +2598,7 @@ function __wizrocket() {
       var data = {};
       data['type'] = "event";
       data['evtName'] = "Notification Viewed";
-      data['evtData'] = {"wzrk_id": targetingMsgJson['wzrk_id']};
+      data['evtData'] = {"wzrk_id": targetingMsgJson['wzrk_id'], "wzrk_pivot": targetingMsgJson['wzrk_pivot']};
       processEvent(data);
     };
 
